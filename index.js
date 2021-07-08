@@ -49,50 +49,50 @@ const questions = [
 ];
 
 const fillReadme = (res) => 
-`# ${res.title}
-<br>
-<br>
-## Description
-${res.description}
-<br>
-## Table of Contents 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [Contribution Guidelines](#contribution-guidelines)
-- [License](#license)
-<br>
-## Installation
-${res.instal}
-<br>
-## Usage
-${res.usage} 
-## Credits
-${res.credits}
-<br>
-## Contribution Guidelines
-${res.contributions}
-<br>
-## Test Instructions
-${res.test}
-<br>
-## License
-${res.license}
-<br>
-## Badges
-`
+  `# ${res.title}
+  ## Description
+  ${res.description}
+  <br>
+  ## Table of Contents 
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Credits](#credits)
+  - [Contribution Guidelines](#contribution-guidelines)
+  - [License](#license)
+  <br>
+  ## Installation
+  ${res.instal}
+  <br>
+  ## Usage
+  ${res.usage} 
+  ## Credits
+  ${res.credits}
+  <br>
+  ## Contribution Guidelines
+  ${res.contribution}
+  <br>
+  ## Test Instructions
+  ${res.test}
+  <br>
+  ## License
+  ${res.license}
+  <br>
+  ## Badges
+  `
 
 //console.log (questions)
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {
-    fs.writeFile(fileName, JSON.stringify(data, null, '\t'), (err) => {err ? console.error(err) : console.log('logged')})
+function writeToFile(fileName, res) {
+    const readMeContent = fillReadme(res);
+    fs.writeFile(fileName, res, (err) => {err ? console.error(err) : console.log('logged')})
 }
 //writeToFile("README.md", res)
 
 // TODO: Create a function to initialize app
 function init() {
-    inquirer.prompt(questions)
-    .then(writeToFile('README.md', res)) 
+  inquirer
+    .prompt(questions)
+    .then((res) => writeToFile('README.md', fillReadme(res))) 
     }
 
 // Function call to initialize app

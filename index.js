@@ -45,41 +45,57 @@ const questions = [
         message: "Choose your license.",
         name: "license",
         choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 3', 'none'], 
-    }
+    },
+    {
+      type: 'input',  
+      message: 'What is your GitHub username?',
+      name: 'GitHub',
+    },
+    {
+      type: 'input',
+      message: 'What is your email address?',
+      name: 'email',
+    },
 ];
 
 const fillReadme = (res) => 
-  `# ${res.title}
-  ## Description
-  ${res.description}
-  <br>
-  ## Table of Contents 
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Credits](#credits)
-  - [Contribution Guidelines](#contribution-guidelines)
-  - [Test Instructions](#test-instructions)
-  - [License](#license)
-  - [Badges](#badges)
-  <br>
-  ## Installation
-  ${res.instal}
-  <br>
-  ## Usage
-  ${res.usage} 
-  ## Credits
-  ${res.credits}
-  <br>
-  ## Contribution Guidelines
-  ${res.contribution}
-  <br>
-  ## Test Instructions
-  ${res.test}
-  <br>
-  ## License
-  ${res.license}
-  <br>
-  ## Badges
+`# ${res.title}
+## Badge
+## Description
+${res.description}
+<br>
+## Table of Contents 
+ - [Installation](#installation)
+ - [Usage](#usage)
+ - [Credits](#credits)
+ - [Contribution Guidelines](#contribution-guidelines)
+ - [Test Instructions](#test-instructions)
+ - [License](#license)
+ - [Questions](#questions)
+<br>
+## Installation
+${res.instal}
+<br>
+## Usage
+${res.usage} 
+## Credits
+${res.credits}
+<br>
+## Contribution Guidelines
+${res.contribution}
+<br>
+## Test Instructions
+${res.test}
+<br>
+## License
+${res.license}
+badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
+## Questions
+GitHub username: ${res.GitHub}
+<br>
+<a href="https://github.com/${res.GitHub}">Link to GitHub profile</a>
+<br>
+Email me at ${res.email} if you have any additional questions.
   `
 
 //console.log (questions)

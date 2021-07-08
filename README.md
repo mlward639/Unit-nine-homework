@@ -1,32 +1,36 @@
-# hjk
+# tit
+  ## Badge
   ## Description
-  bnm
+  desc
   <br>
   ## Table of Contents 
   - [Installation](#installation)
   - [Usage](#usage)
   - [Credits](#credits)
   - [Contribution Guidelines](#contribution-guidelines)
-  - [Test Instructions](#test instructions)
+  - [Test Instructions](#test-instructions)
   - [License](#license)
-  - [Badges](#badges)
+  - [Questions](#questions)
   <br>
   ## Installation
-  uj
+  inst
   <br>
   ## Usage
-  ghj 
+  usag 
   ## Credits
-  uj
+  coll
   <br>
   ## Contribution Guidelines
-  hj
+  cont
   <br>
   ## Test Instructions
-  ghj
+  test
   <br>
   ## License
   MIT
-  <br>
-  ## Badges
+  badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
+  ## Questions
+  GitHub username: mlward639
+  <a href="https://github.com/mlward639">Link to GitHub profile</a>
+  Email me at h@g.com if you have any additional questions.
   

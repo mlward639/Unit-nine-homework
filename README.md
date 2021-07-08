@@ -1,36 +1,12 @@
-# tit
-  ## Badge
-  ## Description
-  desc
-  <br>
-  ## Table of Contents 
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Credits](#credits)
-  - [Contribution Guidelines](#contribution-guidelines)
-  - [Test Instructions](#test-instructions)
-  - [License](#license)
-  - [Questions](#questions)
-  <br>
-  ## Installation
-  inst
-  <br>
-  ## Usage
-  usag 
-  ## Credits
-  coll
-  <br>
-  ## Contribution Guidelines
-  cont
-  <br>
-  ## Test Instructions
-  test
-  <br>
-  ## License
-  MIT
-  badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
-  ## Questions
-  GitHub username: mlward639
-  <a href="https://github.com/mlward639">Link to GitHub profile</a>
-  Email me at h@g.com if you have any additional questions.
-  
+# Unit-nine-homework
+
+## Description
+Command-line application to dynamically generate a professional README.md file. Utilizes the Inquirer Package to turn user's input into README.md file. Generated README.md file includes: title, description, badge, table of contents, installation, usage, license, contributions, tests, and questions (GitHub username and email). Walkthrough video link provided below to demonstrate application.
+
+## Screenshots
+
+
+## URLs
+<a href="https://github.com/mlward639/Unit-nine-homework">Link to GitHub Repository></a>
+
+<a href="#">Link to walkthrough video</a>

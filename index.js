@@ -58,7 +58,9 @@ const fillReadme = (res) =>
   - [Usage](#usage)
   - [Credits](#credits)
   - [Contribution Guidelines](#contribution-guidelines)
+  - [Test Instructions](#test-instructions)
   - [License](#license)
+  - [Badges](#badges)
   <br>
   ## Installation
   ${res.instal}
@@ -83,7 +85,6 @@ const fillReadme = (res) =>
 //console.log (questions)
 // TODO: Create a function to write README file
 function writeToFile(fileName, res) {
-    const readMeContent = fillReadme(res);
     fs.writeFile(fileName, res, (err) => {err ? console.error(err) : console.log('logged')})
 }
 //writeToFile("README.md", res)

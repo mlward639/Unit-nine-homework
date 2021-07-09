@@ -1,10 +1,11 @@
 # fds
+
 ## Badge
 <img src='https://img.shields.io/badge/License-MIT-yellow.svg'>
-<br>
+
 ## Description
-fds
-<br>
+gfds
+
 ## Table of Contents 
  - [Installation](#installation)
  - [Usage](#usage)
@@ -13,23 +14,25 @@ fds
  - [Test Instructions](#test-instructions)
  - [License](#license)
  - [Questions](#questions)
-<br>
+
 ## Installation
-fds
-<br>
+gfd
+
 ## Usage
-dsa 
+gsvc 
+
 ## Credits
-werq
-<br>
+xfdsf
+
 ## Contribution Guidelines
-das
+dsgfd
 <br>
 ## Test Instructions
-das
+gdsg
 <br>
 ## License
 MIT
+<a href="https://opensource.org/licenses/MIT">Link to MIT license</a>
 badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
 ## Questions
 GitHub username: fds

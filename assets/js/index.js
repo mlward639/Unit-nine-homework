@@ -19,7 +19,7 @@ const questions = [
       },
       {
         type: 'input',
-        message: 'Enter installation instructions',
+        message: 'What are the installation instructions?',
         name: 'instal',
       },
       {
@@ -39,7 +39,7 @@ const questions = [
       },
       {
         type: 'input',
-        message: 'Enter your test instructions.',
+        message: 'What are your test instructions?',
         name: 'test',
       },
       {

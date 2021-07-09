@@ -27,32 +27,33 @@ function renderLicenseBadge(license) {
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-  console.log('fxn runnnningggg')
+  //console.log('fxn runnnningggg');
   if (license == 'MIT') {
-    return `<a href="https://opensource.org/licenses/MIT">Link to MIT license</a>`;
+    return `<a href="https://opensource.org/licenses/MIT">Link to MIT license information</a>`;
   }
   else if (license == 'APACHE 2.0') {
-    return `<a href="https://opensource.org/licenses/Apache-2.0">Link to APACHE 2.0 license</a>`;
+    return `<a href="https://opensource.org/licenses/Apache-2.0">Link to APACHE 2.0 license information</a>`;
 
   }
   else if (license == 'GPL 3.0') {
-    return `<a href="https://www.gnu.org/licenses/gpl-3.0">Link to GPL 3.0 license</a>`;
+    return `<a href="https://www.gnu.org/licenses/gpl-3.0">Link to GPL 3.0 license information</a>`;
   }
   else if (license == 'BSD 3') {
-    return `<a href="https://opensource.org/licenses/BSD-3-Clause">Link to BSD 3 license</a>`;
+    return `<a href="https://opensource.org/licenses/BSD-3-Clause">Link to BSD 3 license information</a>`;
   }
   else if (!license) {
     console.log('nothing')
     return '';
   }
-}
+};
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
-  console.log('fxn runnnningggg')
+function renderLicenseSection(license) {
+  console.log('fxn runnnningggg');
   if (license == 'MIT') {
-    return `"Copyright <YEAR> <COPYRIGHT HOLDER>
+    return `
+    "Copyright <YEAR> <COPYRIGHT HOLDER>
 
     Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
     
@@ -61,7 +62,8 @@ function renderLicenseSection(license) {}
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."`;
   }
   else if (license == 'APACHE 2.0') {
-    return `"Copyright [yyyy] [name of copyright owner]
+    return `
+    "Copyright [yyyy] [name of copyright owner]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -76,7 +78,8 @@ function renderLicenseSection(license) {}
     limitations under the License."`
   }
   else if (license == 'GPL 3.0') {
-    return `"Copyright (C) <year>  <name of author>
+    return `
+    "Copyright (C) <year>  <name of author>
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -92,7 +95,8 @@ function renderLicenseSection(license) {}
     along with this program.  If not, see <https://www.gnu.org/licenses/>."`;
   }
   else if (license == 'BSD 3') {
-    return `"Copyright <YEAR> <COPYRIGHT HOLDER>
+    return `
+    "Copyright <YEAR> <COPYRIGHT HOLDER>
 
     Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
     
@@ -108,12 +112,8 @@ function renderLicenseSection(license) {}
     console.log('nothing')
     return 'No license selected.';
   }
-// TODO: Create a function to generate markdown for README
-function generateMarkdown(data) {
-  return `# ${data.title}
-
-`;
 }
+
 
 module.exports = {
   renderLicenseBadge,

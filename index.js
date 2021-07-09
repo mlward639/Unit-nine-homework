@@ -96,8 +96,10 @@ ${res.test}
 ## License
 License type: ${res.license}
 
-${markDown.renderLicenseLink(res.license)}
-badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
+${markDown.renderLicenseSection(res.license)}
+
+Source for licensing information: ${markDown.renderLicenseLink(res.license)}
+
 ## Questions
 GitHub username: ${res.GitHub}
 

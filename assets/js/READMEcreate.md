@@ -1,10 +1,10 @@
-# Unit-Nine-Homework
+# Example of HW-9
 
 ## Badge
 <img src='https://img.shields.io/badge/License-MIT-yellow.svg'>
 
 ## Description
-Created a command-line application to dynamically generate a README.md file utilizing user's input.
+This is a demonstration of how my HW 9 functions. Will utilize user input to generate a README.md file.
 
 ## Table of Contents 
  - [Installation](#installation)
@@ -16,19 +16,19 @@ Created a command-line application to dynamically generate a README.md file util
  - [Questions](#questions)
 
 ## Installation
-Open application in Visual Studio Code. Then open terminal and type 'node index.js'. Answer promts. Open created README.md file.
+Here a user would enter the installation instructions for their app.
 
 ## Usage
-Use to create README.md with minimal effort. 
+Here they would enter the usage information. 
 
 ## Credits
-inquire, https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba
+Here they would list and collaborators.
 
 ## Contribution Guidelines
-Utilize The Contributor Covenant (https://www.contributor-covenant.org/version/2/0/code_of_conduct/code_of_conduct.md) as reference for appropriate contribution guidelines.
+Here they would list their contribution guidelines.
 
 ## Test Instructions
-n/a
+Here they would put their test instructions. 
 
 ## License
 License type: MIT

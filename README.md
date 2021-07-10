@@ -58,6 +58,6 @@ Screen shot of generated README.md, part 3
 <img src='assets\images\Screenshot-generated-readme3.png' alt = 'screenshot of generated readme, part 3'>
 
 ## URLs
-<a href="https://github.com/mlward639/Unit-nine-homework">Link to GitHub Repository></a>
+<a href="https://github.com/mlward639/Unit-nine-homework">Link to GitHub Repository</a>
 
 <a href="https://drive.google.com/file/d/11TgLnG347jlAsJgQjTUhlBxQUYzWOYld/view">Link to walkthrough video</a>

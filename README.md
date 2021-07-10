@@ -4,9 +4,6 @@
 ## Description
 Command-line application to dynamically generate a professional README.md file. Utilizes the Inquirer Package to turn user's input into README.md file. Generated README.md file includes: title, description, badge, table of contents, installation, usage, license, contributions, tests, and questions (GitHub username and email). Walkthrough video link provided below to demonstrate application.
 
-## Description
-Created a command-line application to dynamically generate a README.md file utilizing user's input.
-
 ## Table of Contents 
  - [Installation](#installation)
  - [Usage](#usage)
